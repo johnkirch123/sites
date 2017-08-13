@@ -1,0 +1,26 @@
+
+
+.navbar{
+  margin-bottom: 0px !important;
+  border-radius: 0px !important;
+  border-radius: 0;
+  .fa{
+    font-size: 18px;
+  }
+}
+
+.showcase{
+  background: url(../img/showcase.jpg) no-repeat 0 -400px;
+  height: 600px;
+  padding: 30px 0px;
+
+  h1{
+    font-size: 60px;
+  }
+
+  .container{
+    background: #fff;
+    opacity: 0.8;
+    padding: 20px 30px 30px 30px;
+  }
+}
