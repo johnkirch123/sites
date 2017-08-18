@@ -1,22 +1,4 @@
 @charset "UTF-8";
-.navbar {
-  margin-bottom: 0px !important;
-  border-radius: 0px !important;
-  border-radius: 0; }
-  .navbar .fa {
-    font-size: 18px; }
-
-.showcase {
-  background: url(../img/showcase.jpg) no-repeat 0 -400px;
-  height: 600px;
-  padding: 30px 0px; }
-  .showcase h1 {
-    font-size: 60px; }
-  .showcase .container {
-    background: #fff;
-    opacity: 0.8;
-    padding: 20px 30px 30px 30px; }
-
 /*!
  * Bootstrap v3.3.7 (http://getbootstrap.com)
  * Copyright 2011-2016 Twitter, Inc.
@@ -4925,12 +4907,12 @@ button.list-group-item-danger {
   border-color: #ddd; }
   .panel-default > .panel-heading {
     color: #333333;
-    background-color: #f5f5f5;
+    background-color: #003300;
     border-color: #ddd; }
     .panel-default > .panel-heading + .panel-collapse > .panel-body {
       border-top-color: #ddd; }
     .panel-default > .panel-heading .badge {
-      color: #f5f5f5;
+      color: #003300;
       background-color: #333333; }
   .panel-default > .panel-footer + .panel-collapse > .panel-body {
     border-bottom-color: #ddd; }
@@ -8147,5 +8129,74 @@ button.close {
   margin: 0;
   overflow: visible;
   clip: auto; }
+
+.navbar {
+  margin-bottom: 0px !important;
+  border-radius: 0px !important;
+  border-radius: 0; }
+  .navbar a {
+    color: #ffffff !important; }
+  .navbar .fa {
+    font-size: 18px; }
+  .navbar h2 {
+    color: #fff;
+    margin-right: 20px; }
+
+.navbar-brand {
+  font-size: 2.5em;
+  font-weight: bold; }
+
+.showcase {
+  background: url(../img/showcase.jpg) no-repeat 0 -400px;
+  height: 600px;
+  padding: 30px 0px; }
+  .showcase h1 {
+    font-size: 60px; }
+  .showcase .container {
+    background: #fff;
+    opacity: 0.8;
+    padding: 20px 30px 30px 30px;
+    margin-top: 40px; }
+
+.section-a {
+  padding: 30px 0;
+  text-align: center;
+  background: #003300;
+  color: #ffffff; }
+  .section-a .col-md-4 {
+    padding: 20px; }
+  .section-a .fa {
+    font-size: 60px; }
+
+.section-b {
+  background: #000;
+  padding: 30px 0; }
+  .section-b img {
+    width: 100%; }
+
+.panel-heading h4 {
+  color: #ffffff; }
+
+.section-c {
+  padding: 60px 0;
+  text-align: center;
+  background: #003300;
+  color: #ffffff; }
+  .section-c .btn-primary {
+    background: #001f00; }
+
+.title-bar {
+  background: url(../img/showcase.jpg) no-repeat 0 -600px;
+  padding-bottom: 10px;
+  border-bottom: 4px solid #003300;
+  color: #ffffff; }
+
+.main {
+  margin-top: 30px; }
+
+footer {
+  padding: 30px 0;
+  background: #001f00;
+  color: #ffffff; }
 
 /*# sourceMappingURL=app.css.map */
