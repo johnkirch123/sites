@@ -8131,9 +8131,14 @@ button.close {
   clip: auto; }
 
 .navbar {
-  background-image: url("../img/header3.jpg");
+  background: url("../img/header3.jpg") no-repeat 0 -22px;
   background-repeat: no-repeat; }
-  .navbar ul li {
-    font-size: 2em; }
+
+section {
+  margin-top: 180px; }
+
+#navbar {
+  font-weight: bold;
+  font-size: 20px; }
 
 /*# sourceMappingURL=app.css.map */
